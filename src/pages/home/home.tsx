@@ -6,7 +6,7 @@ import DeepLinker from '../../helper/deeplinker';
 export const Home = () => {
 
   useEffect(() => {
-    const pathname = window.location.search.slice(1);
+    const pathname = window.location.pathname.slice(1);
 
     const search = window.location.search;
 
